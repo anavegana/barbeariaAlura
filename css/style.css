@@ -188,6 +188,7 @@ footer{text-align:center;
 .itens{
   line-height:1.5;
 }
+.itens:before{"🟊";}
 
 .itens:first-child{
   font-weight:bold;
