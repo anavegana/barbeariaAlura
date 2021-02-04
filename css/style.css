@@ -78,6 +78,11 @@ nav a:hover{
   margin:10px 0 0;
 }
 
+@media screen and (max-width: 480px){
+  .produto-descriçao, .produto-preço, .produtos, .produtos li{
+    width:auto;
+  }
+}
 footer{
   text-align:center;
   background: url("bg.jpg");
@@ -124,6 +129,12 @@ border:none;
 border-radius:5px;
 transition:1s all;
 cursor:pointer;
+}
+@media screen and (max-width: 480px){
+  .enviar{
+    width:auto;
+
+  }
 }
 
 .enviar:hover{background:darkorange;
