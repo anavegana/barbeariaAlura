@@ -119,6 +119,14 @@ width:50%;}
 .checkbox{margin:20px 0;
 }
 
+@media screen and (max-width: 480px){
+  .escolha-contato, .escolha-horario, .checkbox, .formulario{
+    margin-left:20px;
+
+    margin-bottom:10px;
+  }
+}
+
 .enviar{width:40%;
 padding:15px 0;
 background:orange;
@@ -133,6 +141,7 @@ cursor:pointer;
 @media screen and (max-width: 480px){
   .enviar{
     width:auto;
+    margin:10px 20px 10px 20px;
 
   }
 }
